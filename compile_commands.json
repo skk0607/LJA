@@ -1,0 +1,290 @@
+[
+{
+  "directory": "/home/skk/proj/LJA/src/tests",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tests/src/projects/repeat_resolution -I/home/skk/proj/LJA/src/tools/graphlite/. -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest/include -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/run_tests.dir/test_repeat_resolution/test_mdbg.cpp.o -c /home/skk/proj/LJA/src/tests/test_repeat_resolution/test_mdbg.cpp",
+  "file": "/home/skk/proj/LJA/src/tests/test_repeat_resolution/test_mdbg.cpp",
+  "output": "src/tests/CMakeFiles/run_tests.dir/test_repeat_resolution/test_mdbg.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/tests",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tests/src/projects/repeat_resolution -I/home/skk/proj/LJA/src/tools/graphlite/. -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest/include -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/run_tests.dir/test_repeat_resolution/test_paths.cpp.o -c /home/skk/proj/LJA/src/tests/test_repeat_resolution/test_paths.cpp",
+  "file": "/home/skk/proj/LJA/src/tests/test_repeat_resolution/test_paths.cpp",
+  "output": "src/tests/CMakeFiles/run_tests.dir/test_repeat_resolution/test_paths.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/tests",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tests/src/projects/repeat_resolution -I/home/skk/proj/LJA/src/tools/graphlite/. -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest/include -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/run_tests.dir/test_repeat_resolution/test_mdbgseq.cpp.o -c /home/skk/proj/LJA/src/tests/test_repeat_resolution/test_mdbgseq.cpp",
+  "file": "/home/skk/proj/LJA/src/tests/test_repeat_resolution/test_mdbgseq.cpp",
+  "output": "src/tests/CMakeFiles/run_tests.dir/test_repeat_resolution/test_mdbgseq.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/tests/googletest-master/googlemock",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tests/googletest-master/googlemock/include -I/home/skk/proj/LJA/src/tests/googletest-master/googlemock -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest/include -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=c++11 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/skk/proj/LJA/src/tests/googletest-master/googlemock/src/gmock-all.cc",
+  "file": "/home/skk/proj/LJA/src/tests/googletest-master/googlemock/src/gmock-all.cc",
+  "output": "src/tests/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/tests/googletest-master/googlemock",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -isystem /home/skk/proj/LJA/src/tests/googletest-master/googlemock/include -isystem /home/skk/proj/LJA/src/tests/googletest-master/googlemock -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest/include -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=c++11 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/skk/proj/LJA/src/tests/googletest-master/googlemock/src/gmock_main.cc",
+  "file": "/home/skk/proj/LJA/src/tests/googletest-master/googlemock/src/gmock_main.cc",
+  "output": "src/tests/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/tests/googletest-master/googletest",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tests/googletest-master/googletest/include -I/home/skk/proj/LJA/src/tests/googletest-master/googletest  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=c++11 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/skk/proj/LJA/src/tests/googletest-master/googletest/src/gtest-all.cc",
+  "file": "/home/skk/proj/LJA/src/tests/googletest-master/googletest/src/gtest-all.cc",
+  "output": "src/tests/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/tests/googletest-master/googletest",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest/include -isystem /home/skk/proj/LJA/src/tests/googletest-master/googletest  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=c++11 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/skk/proj/LJA/src/tests/googletest-master/googletest/src/gtest_main.cc",
+  "file": "/home/skk/proj/LJA/src/tests/googletest-master/googletest/src/gtest_main.cc",
+  "output": "src/tests/googletest-master/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/tools/common",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tools/common/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_common.dir/cl_parser.cpp.o -c /home/skk/proj/LJA/src/tools/common/cl_parser.cpp",
+  "file": "/home/skk/proj/LJA/src/tools/common/cl_parser.cpp",
+  "output": "src/tools/common/CMakeFiles/lja_common.dir/cl_parser.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/tools/sequences",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tools/sequences/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_sequence.dir/contigs.cpp.o -c /home/skk/proj/LJA/src/tools/sequences/contigs.cpp",
+  "file": "/home/skk/proj/LJA/src/tools/sequences/contigs.cpp",
+  "output": "src/tools/sequences/CMakeFiles/lja_sequence.dir/contigs.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/tools/sequences",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tools/sequences/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_sequence.dir/sequence.cpp.o -c /home/skk/proj/LJA/src/tools/sequences/sequence.cpp",
+  "file": "/home/skk/proj/LJA/src/tools/sequences/sequence.cpp",
+  "output": "src/tools/sequences/CMakeFiles/lja_sequence.dir/sequence.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/lib/spoa",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/lib/spoa/include  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -Wall -Wextra -pedantic -Wno-aligned-new -Wno-ignored-attributes -march=native -O3 -std=c++11 -o CMakeFiles/spoa.dir/src/alignment_engine.cpp.o -c /home/skk/proj/LJA/src/lib/spoa/src/alignment_engine.cpp",
+  "file": "/home/skk/proj/LJA/src/lib/spoa/src/alignment_engine.cpp",
+  "output": "src/lib/spoa/CMakeFiles/spoa.dir/src/alignment_engine.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/lib/spoa",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/lib/spoa/include  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -Wall -Wextra -pedantic -Wno-aligned-new -Wno-ignored-attributes -march=native -O3 -std=c++11 -o CMakeFiles/spoa.dir/src/graph.cpp.o -c /home/skk/proj/LJA/src/lib/spoa/src/graph.cpp",
+  "file": "/home/skk/proj/LJA/src/lib/spoa/src/graph.cpp",
+  "output": "src/lib/spoa/CMakeFiles/spoa.dir/src/graph.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/lib/spoa",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/lib/spoa/include  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -Wall -Wextra -pedantic -Wno-aligned-new -Wno-ignored-attributes -march=native -O3 -std=c++11 -o CMakeFiles/spoa.dir/src/simd_alignment_engine_dispatcher.cpp.o -c /home/skk/proj/LJA/src/lib/spoa/src/simd_alignment_engine_dispatcher.cpp",
+  "file": "/home/skk/proj/LJA/src/lib/spoa/src/simd_alignment_engine_dispatcher.cpp",
+  "output": "src/lib/spoa/CMakeFiles/spoa.dir/src/simd_alignment_engine_dispatcher.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/lib/spoa",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/lib/spoa/include  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -Wall -Wextra -pedantic -Wno-aligned-new -Wno-ignored-attributes -march=native -O3 -std=c++11 -o CMakeFiles/spoa.dir/src/sisd_alignment_engine.cpp.o -c /home/skk/proj/LJA/src/lib/spoa/src/sisd_alignment_engine.cpp",
+  "file": "/home/skk/proj/LJA/src/lib/spoa/src/sisd_alignment_engine.cpp",
+  "output": "src/lib/spoa/CMakeFiles/spoa.dir/src/sisd_alignment_engine.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/lib/ksw2",
+  "command": "/usr/bin/cc  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -O3 -DNDEBUG -o CMakeFiles/ksw2.dir/ksw2_extz2_sse.c.o -c /home/skk/proj/LJA/src/lib/ksw2/ksw2_extz2_sse.c",
+  "file": "/home/skk/proj/LJA/src/lib/ksw2/ksw2_extz2_sse.c",
+  "output": "src/lib/ksw2/CMakeFiles/ksw2.dir/ksw2_extz2_sse.c.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/dbg",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_dbg.dir/sparse_dbg.cpp.o -c /home/skk/proj/LJA/src/projects/dbg/sparse_dbg.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/dbg/sparse_dbg.cpp",
+  "output": "src/projects/dbg/CMakeFiles/lja_dbg.dir/sparse_dbg.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/dbg",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_dbg.dir/graph_algorithms.cpp.o -c /home/skk/proj/LJA/src/projects/dbg/graph_algorithms.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/dbg/graph_algorithms.cpp",
+  "output": "src/projects/dbg/CMakeFiles/lja_dbg.dir/graph_algorithms.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/dbg",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_dbg.dir/dbg_disjointigs.cpp.o -c /home/skk/proj/LJA/src/projects/dbg/dbg_disjointigs.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/dbg/dbg_disjointigs.cpp",
+  "output": "src/projects/dbg/CMakeFiles/lja_dbg.dir/dbg_disjointigs.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/dbg",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_dbg.dir/dbg_construction.cpp.o -c /home/skk/proj/LJA/src/projects/dbg/dbg_construction.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/dbg/dbg_construction.cpp",
+  "output": "src/projects/dbg/CMakeFiles/lja_dbg.dir/dbg_construction.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/dbg",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_dbg.dir/minimizer_selection.cpp.o -c /home/skk/proj/LJA/src/projects/dbg/minimizer_selection.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/dbg/minimizer_selection.cpp",
+  "output": "src/projects/dbg/CMakeFiles/lja_dbg.dir/minimizer_selection.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/dbg",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_dbg.dir/paths.cpp.o -c /home/skk/proj/LJA/src/projects/dbg/paths.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/dbg/paths.cpp",
+  "output": "src/projects/dbg/CMakeFiles/lja_dbg.dir/paths.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/dbg",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_dbg.dir/graph_alignment_storage.cpp.o -c /home/skk/proj/LJA/src/projects/dbg/graph_alignment_storage.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/dbg/graph_alignment_storage.cpp",
+  "output": "src/projects/dbg/CMakeFiles/lja_dbg.dir/graph_alignment_storage.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/dbg",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_dbg.dir/component.cpp.o -c /home/skk/proj/LJA/src/projects/dbg/component.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/dbg/component.cpp",
+  "output": "src/projects/dbg/CMakeFiles/lja_dbg.dir/component.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/dbg",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_dbg.dir/graph_modification.cpp.o -c /home/skk/proj/LJA/src/projects/dbg/graph_modification.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/dbg/graph_modification.cpp",
+  "output": "src/projects/dbg/CMakeFiles/lja_dbg.dir/graph_modification.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/scripts",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/sdbg_stats.dir/sdbg_stats.cpp.o -c /home/skk/proj/LJA/src/projects/scripts/sdbg_stats.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/scripts/sdbg_stats.cpp",
+  "output": "src/projects/scripts/CMakeFiles/sdbg_stats.dir/sdbg_stats.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/scripts",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/dot_bulge_stats.dir/dot_bulge_stats.cpp.o -c /home/skk/proj/LJA/src/projects/scripts/dot_bulge_stats.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/scripts/dot_bulge_stats.cpp",
+  "output": "src/projects/scripts/CMakeFiles/dot_bulge_stats.dir/dot_bulge_stats.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/lja",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/lib/spoa/include -I/home/skk/proj/LJA/src/tools/graphlite/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/lja.dir/lja.cpp.o -c /home/skk/proj/LJA/src/projects/lja/lja.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/lja/lja.cpp",
+  "output": "src/projects/lja/CMakeFiles/lja.dir/lja.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/lja",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/lib/spoa/include -I/home/skk/proj/LJA/src/tools/graphlite/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/lja.dir/subdataset_processing.cpp.o -c /home/skk/proj/LJA/src/projects/lja/subdataset_processing.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/lja/subdataset_processing.cpp",
+  "output": "src/projects/lja/CMakeFiles/lja.dir/subdataset_processing.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/lja",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/lib/spoa/include -I/home/skk/proj/LJA/src/tools/graphlite/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/lja.dir/gap_closing.cpp.o -c /home/skk/proj/LJA/src/projects/lja/gap_closing.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/lja/gap_closing.cpp",
+  "output": "src/projects/lja/CMakeFiles/lja.dir/gap_closing.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/lja",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/lib/spoa/include -I/home/skk/proj/LJA/src/tools/graphlite/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/lja.dir/uncompressed_output.cpp.o -c /home/skk/proj/LJA/src/projects/lja/uncompressed_output.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/lja/uncompressed_output.cpp",
+  "output": "src/projects/lja/CMakeFiles/lja.dir/uncompressed_output.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/lja",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/jumboDBG.dir/dbg.cpp.o -c /home/skk/proj/LJA/src/projects/lja/dbg.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/lja/dbg.cpp",
+  "output": "src/projects/lja/CMakeFiles/jumboDBG.dir/dbg.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/lja",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/jumboDBG.dir/subdataset_processing.cpp.o -c /home/skk/proj/LJA/src/projects/lja/subdataset_processing.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/lja/subdataset_processing.cpp",
+  "output": "src/projects/lja/CMakeFiles/jumboDBG.dir/subdataset_processing.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/error_correction",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_ec.dir/correction_utils.cpp.o -c /home/skk/proj/LJA/src/projects/error_correction/correction_utils.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/error_correction/correction_utils.cpp",
+  "output": "src/projects/error_correction/CMakeFiles/lja_ec.dir/correction_utils.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/error_correction",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_ec.dir/manyk_correction.cpp.o -c /home/skk/proj/LJA/src/projects/error_correction/manyk_correction.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/error_correction/manyk_correction.cpp",
+  "output": "src/projects/error_correction/CMakeFiles/lja_ec.dir/manyk_correction.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/error_correction",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_ec.dir/multiplicity_estimation.cpp.o -c /home/skk/proj/LJA/src/projects/error_correction/multiplicity_estimation.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/error_correction/multiplicity_estimation.cpp",
+  "output": "src/projects/error_correction/CMakeFiles/lja_ec.dir/multiplicity_estimation.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/error_correction",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_ec.dir/initial_correction.cpp.o -c /home/skk/proj/LJA/src/projects/error_correction/initial_correction.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/error_correction/initial_correction.cpp",
+  "output": "src/projects/error_correction/CMakeFiles/lja_ec.dir/initial_correction.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/error_correction",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_ec.dir/dimer_correction.cpp.o -c /home/skk/proj/LJA/src/projects/error_correction/dimer_correction.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/error_correction/dimer_correction.cpp",
+  "output": "src/projects/error_correction/CMakeFiles/lja_ec.dir/dimer_correction.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/error_correction",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_ec.dir/tip_correction.cpp.o -c /home/skk/proj/LJA/src/projects/error_correction/tip_correction.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/error_correction/tip_correction.cpp",
+  "output": "src/projects/error_correction/CMakeFiles/lja_ec.dir/tip_correction.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/error_correction",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_ec.dir/mult_correction.cpp.o -c /home/skk/proj/LJA/src/projects/error_correction/mult_correction.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/error_correction/mult_correction.cpp",
+  "output": "src/projects/error_correction/CMakeFiles/lja_ec.dir/mult_correction.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/error_correction",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -std=gnu++14 -o CMakeFiles/lja_ec.dir/precorrection.cpp.o -c /home/skk/proj/LJA/src/projects/error_correction/precorrection.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/error_correction/precorrection.cpp",
+  "output": "src/projects/error_correction/CMakeFiles/lja_ec.dir/precorrection.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/polishing",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/lib/spoa/include  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/lja_homopolish.dir/homopolish.cpp.o -c /home/skk/proj/LJA/src/projects/polishing/homopolish.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/polishing/homopolish.cpp",
+  "output": "src/projects/polishing/CMakeFiles/lja_homopolish.dir/homopolish.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/polishing",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/lib/spoa/include  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/run_polishing.dir/run_polishing.cpp.o -c /home/skk/proj/LJA/src/projects/polishing/run_polishing.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/polishing/run_polishing.cpp",
+  "output": "src/projects/polishing/CMakeFiles/run_polishing.dir/run_polishing.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/repeat_resolution",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tools/graphlite/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/repeat_resolution.dir/paths.cpp.o -c /home/skk/proj/LJA/src/projects/repeat_resolution/paths.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/repeat_resolution/paths.cpp",
+  "output": "src/projects/repeat_resolution/CMakeFiles/repeat_resolution.dir/paths.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/repeat_resolution",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tools/graphlite/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/repeat_resolution.dir/mdbg_topology.cpp.o -c /home/skk/proj/LJA/src/projects/repeat_resolution/mdbg_topology.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/repeat_resolution/mdbg_topology.cpp",
+  "output": "src/projects/repeat_resolution/CMakeFiles/repeat_resolution.dir/mdbg_topology.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/repeat_resolution",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tools/graphlite/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/repeat_resolution.dir/mdbg_inc.cpp.o -c /home/skk/proj/LJA/src/projects/repeat_resolution/mdbg_inc.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/repeat_resolution/mdbg_inc.cpp",
+  "output": "src/projects/repeat_resolution/CMakeFiles/repeat_resolution.dir/mdbg_inc.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/repeat_resolution",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tools/graphlite/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/repeat_resolution.dir/mdbg_vertex_processor.cpp.o -c /home/skk/proj/LJA/src/projects/repeat_resolution/mdbg_vertex_processor.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/repeat_resolution/mdbg_vertex_processor.cpp",
+  "output": "src/projects/repeat_resolution/CMakeFiles/repeat_resolution.dir/mdbg_vertex_processor.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/repeat_resolution",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tools/graphlite/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/repeat_resolution.dir/mdbg.cpp.o -c /home/skk/proj/LJA/src/projects/repeat_resolution/mdbg.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/repeat_resolution/mdbg.cpp",
+  "output": "src/projects/repeat_resolution/CMakeFiles/repeat_resolution.dir/mdbg.cpp.o"
+},
+{
+  "directory": "/home/skk/proj/LJA/src/projects/repeat_resolution",
+  "command": "/usr/bin/c++  -I/home/skk/proj/LJA/src/tools -I/home/skk/proj/LJA/src/lib -I/home/skk/proj/LJA/src/projects -I/home/skk/proj/LJA/src/tools/graphlite/.  -std=c++17 -lstdc++fs -ggdb3 -fopenmp -O3 -o CMakeFiles/repeat_resolution.dir/mdbg_seq.cpp.o -c /home/skk/proj/LJA/src/projects/repeat_resolution/mdbg_seq.cpp",
+  "file": "/home/skk/proj/LJA/src/projects/repeat_resolution/mdbg_seq.cpp",
+  "output": "src/projects/repeat_resolution/CMakeFiles/repeat_resolution.dir/mdbg_seq.cpp.o"
+}
+]

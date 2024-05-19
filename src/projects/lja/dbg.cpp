@@ -166,6 +166,7 @@ int main(int argc, char **argv) {
     }
 
     bool debug = parser.getCheck("debug");
+    //是否进行HPC压缩
     StringContig::homopolymer_compressing = parser.getCheck("compress");
     StringContig::SetDimerParameters(parser.getValue("dimer-compress"));
     const std::experimental::filesystem::path dir(parser.getValue("output-dir"));

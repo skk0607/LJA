@@ -255,6 +255,13 @@ namespace io {
             return std::move(res);
         }
 
+        /**
+         * @brief 读取所有 Contig
+         *
+         * 从当前文件读取所有 Contig，并将其存储在一个 std::vector<Contig> 中返回。
+         *
+         * @return 存储所有 Contig 的 std::vector<Contig>
+         */
         std::vector<Contig> readAllContigs() {
             std::vector<Contig> res;
             while(!eof()) {

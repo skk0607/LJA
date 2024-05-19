@@ -11,7 +11,7 @@
 
 #include "graphlite.hpp"
 #include <deque>
-
+#include <optional>
 namespace graph_lite {
     namespace detail {
         // serialize properties if they are map/unordered_map

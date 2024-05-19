@@ -267,8 +267,16 @@ public:
     static size_t max_dimer_size;
     static size_t dimer_step;
 
+    /**
+     * @brief 设置二聚体参数
+     *
+     * 根据给定的字符串参数，将字符串按照逗号分隔成多个部分，并将这些部分转换成无符号长整型数值，用于设置二聚体的相关参数。
+     *
+     * @param s 字符串参数，包含以逗号分隔的二聚体参数值
+     */
     static void SetDimerParameters(const std::string &s) {
         std::vector<std::string> vals = split(s, ",");
+        //std:stoull 将字符串转换为unsigned long long整数
         StringContig::min_dimer_to_compress = std::stoull(vals[0]);
         StringContig::max_dimer_size = std::stoull(vals[1]);
         StringContig::dimer_step = std::stoull(vals[2]);

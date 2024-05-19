@@ -3,6 +3,18 @@
 
 using namespace hashing;
 using namespace dbg;
+/**
+ * @brief 查找连接点
+ *
+ * 使用给定的日志记录器、不连续序列、哈希器和线程数，查找连接点并返回它们的哈希值。
+ *
+ * @param logger 日志记录器引用
+ * @param disjointigs 不连续序列的向量
+ * @param hasher 哈希器引用
+ * @param threads 线程数
+ *
+ * @return 连接点的哈希值的向量
+ */
 std::vector<hashing::htype>
 findJunctions(logging::Logger &logger, const std::vector<Sequence> &disjointigs, const hashing::RollingHash &hasher,
               size_t threads) {
@@ -23,15 +35,15 @@ findJunctions(logging::Logger &logger, const std::vector<Sequence> &disjointigs,
     parameters.false_positive_probability = 0.0001;
     VERIFY(!!parameters);
     parameters.compute_optimal_parameters();
-    BloomFilter filter(parameters);
+    BloomFilter filter(parameters);//bloom过滤器
 //    DelayedBloomFilter filter(parameters, threads);
-    const hashing::RollingHash ehasher = hasher.extensionHash();
+    const hashing::RollingHash ehasher = hasher.extensionHash();//这里是滚动hash
     std::function<void(size_t, const Sequence &)> task = [&filter, &ehasher](size_t pos, const Sequence & seq) {
         if(seq.size() < ehasher.getK())
             return;
         hashing::KWH kmer(ehasher, seq, 0);
         while (true) {
-            filter.insert(kmer.hash());
+            filter.insert(kmer.hash());//将映射的hash值存储到 filter
 //            filter.delayedInsert(kmer.hash());
             if (!kmer.hasNext())
                 break;
@@ -56,12 +68,12 @@ findJunctions(logging::Logger &logger, const std::vector<Sequence> &disjointigs,
             size_t cnt1 = 0;
             size_t cnt2 = 0;
             for (unsigned char c = 0; c < 4u; c++) {
-                cnt1 += filter.contains(kmer.extendRight(c));
+                cnt1 += filter.contains(kmer.extendRight(c));//计数
                 cnt2 += filter.contains(kmer.extendLeft(c));
             }
-            if (cnt1 != 1 || cnt2 != 1) {
+            if (cnt1 != 1 || cnt2 != 1) {//只要有1个 != 1
                 cnt += 1;
-                junctions.emplace_back(kmer.hash());
+                junctions.emplace_back(kmer.hash());//就将当前kmer存放在连接点
             }
             VERIFY(cnt1 <= 4 && cnt2 <= 4);
             if (!kmer.hasNext())
@@ -153,6 +165,22 @@ inline std::vector<htype> readHashs(std::istream &is) {
     return std::move(result);
 }
 
+/**
+ * @brief DBGPipeline函数
+ *
+ * 通过指定的参数，构建并返回一个SparseDBG对象。
+ *
+ * @param logger 日志记录器对象
+ * @param hasher RollingHash对象
+ * @param w 窗口大小
+ * @param lib io库对象
+ * @param dir 存储路径
+ * @param threads 线程数
+ * @param disjointigs_file 不连续序列文件路径，若为"none"则不读取
+ * @param vertices_file 顶点哈希值文件路径，若为"none"则不读取
+ *
+ * @return SparseDBG对象
+ */
 SparseDBG DBGPipeline(logging::Logger &logger, const RollingHash &hasher, size_t w, const io::Library &lib,
                       const std::experimental::filesystem::path &dir, size_t threads, const string &disjointigs_file,
                       const string &vertices_file) {

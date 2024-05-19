@@ -3,6 +3,15 @@
 
 using namespace hashing;
 using namespace dbg;
+/**
+ * @brief 构建不相交序列
+ *
+ * 根据给定的路径构建不相交序列。
+ *
+ * @param path 路径对象引用
+ *
+ * @return 构建的不相交序列
+ */
 Sequence buildDisjointig(Path &path) {
     Sequence disjointig = path.Seq();
     const Vertex &last = path.finish().rc();

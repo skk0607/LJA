@@ -312,6 +312,13 @@ std::string constructMessage() {
     return ss.str();
 }
 
+/**
+ * @brief 主函数，程序入口
+ *
+ * @param argc 命令行参数个数
+ * @param argv 命令行参数列表
+ * @return 返回程序执行结果
+ */
 int main(int argc, char **argv) {
     CLParser parser({"output-dir=",
                      "threads=16",

@@ -1,0 +1,20 @@
+{
+    "configurations": [
+      {
+        "name": "linux-gcc-x64",
+        "includePath": [
+          "${workspaceFolder}/**"
+        ],
+        
+        "compilerPath": "/usr/bin/gcc",
+        "cStandard": "${default}",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "linux-gcc-x64",
+        "compileCommands":"/home/skk/proj/LJA/build/compile_commands.json",
+        "compilerArgs": [
+          ""
+        ]
+      }
+    ],
+    "version": 4
+  }

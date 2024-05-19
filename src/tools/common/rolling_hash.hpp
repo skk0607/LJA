@@ -84,6 +84,17 @@ namespace hashing {
 
     class KWH {
     private:
+        /**
+         * @brief 构造函数，用于初始化 KWH 对象
+         *
+         * 根据给定的参数初始化 KWH 对象。
+         *
+         * @param _hasher RollingHash 对象，用于计算哈希值
+         * @param _seq Sequence 对象，表示待匹配的序列
+         * @param _pos size_t 类型，表示当前匹配位置
+         * @param _fhash htype 类型，表示前向哈希值
+         * @param _rhash htype 类型，表示后向哈希值
+         */
         KWH(const RollingHash &_hasher, const Sequence &_seq, size_t _pos, htype _fhash, htype _rhash) :
                 hasher(_hasher), seq(_seq), pos(_pos), fhash(_fhash), rhash(_rhash) {
         }
@@ -95,6 +106,15 @@ namespace hashing {
         const RollingHash &hasher;
         size_t pos;
 
+        /**
+         * @brief KWH 构造函数
+         *
+         * 使用给定的滚动哈希器和序列以及位置参数，初始化 KWH 对象。
+         *
+         * @param _hasher 滚动哈希器对象
+         * @param _seq 序列对象
+         * @param _pos 位置参数
+         */
         KWH(const RollingHash &_hasher, const Sequence &_seq, size_t _pos) :
                 hasher(_hasher), seq(_seq), pos(_pos), fhash(_hasher.hash(_seq, _pos)),
                 rhash(_hasher.hash(!_seq, _seq.size() - _pos - _hasher.getK())) {
@@ -106,6 +126,13 @@ namespace hashing {
             return seq.Subseq(pos, pos + hasher.getK());
         }
 
+        /**
+         * @brief 逻辑非运算符重载
+         *
+         * 对当前对象进行逻辑非运算，并返回一个新的 KWH 对象。
+         *
+         * @return 逻辑非运算后的 KWH 对象
+         */
         KWH operator!() const {
             return KWH(hasher, !seq, seq.size() - pos - hasher.getK(), rhash, fhash);
         }
